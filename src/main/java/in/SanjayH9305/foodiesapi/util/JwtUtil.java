@@ -15,7 +15,7 @@ import java.util.function.Function;
 
 @Component
 public class JwtUtil {
-    @Value("bushanSirgurSuperSecretKeyJwt1234")
+    @Value("${JWT_SECRET_KEY}")
     private String SECRET_KEY;
 
     public String generateToken(UserDetails userDetails) {
