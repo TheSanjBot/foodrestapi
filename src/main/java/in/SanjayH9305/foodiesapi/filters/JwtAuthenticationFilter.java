@@ -1,6 +1,6 @@
-package in.SanjayH9305.foodiesapi.filters;
+package in.bushansirgur.foodiesapi.filters;
 
-import in.SanjayH9305.foodiesapi.util.JwtUtil;
+import in.bushansirgur.foodiesapi.util.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
